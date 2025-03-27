@@ -1,1 +1,87 @@
-.env
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+*.sqlite3
+*.db
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# ----------------------
+# Airflow
+# ----------------------
+airflow.db
+airflow-webserver.pid
+logs/
+dag_run.conf
+unittests.cfg
+.venv_airflow/
+.env_airflow/
+
+# ----------------------
+# Docker
+# ----------------------
+**/.env         # any .env file in subdirs
+.dockerignore
+docker-compose.override.yml
+*.bak
+*.swp
+
+# ----------------------
+# VSCode
+# ----------------------
+.vscode/
+.history/
+
+# ----------------------
+# DevContainers
+# ----------------------
+.devcontainer/.env
+.devcontainer/Dockerfile
+.devcontainer/docker-compose.*
+.devcontainer/*.sh
+.devcontainer/*.bak
+
+# ----------------------
+# OS/Editor cruft
+# ----------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.orig
+*.sw?
+
+# ----------------------
+# Misc project-specific (optional)
+# ----------------------
+# airflow_home/
+# data/
