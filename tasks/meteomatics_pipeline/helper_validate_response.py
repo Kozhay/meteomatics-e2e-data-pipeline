@@ -30,7 +30,6 @@ def validate_weather_response(response_json):
     try:
         validated = MeteomaticsResponse(**response_json)
         print("✅ Response successfully validated")
-        return validated
     except Exception as e:
         print("❌ Validation failed:", e)
         raise
