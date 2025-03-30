@@ -25,10 +25,17 @@ class MeteomaticsResponse(BaseModel):
     status: str
     data: List[ParameterData]
 
+class EnrichedWeatherResponse(BaseModel):
+    city: str
+    country: str
+    latitude: float
+    longitude: float
+    weather: MeteomaticsResponse
+
 
 def validate_weather_response(response_json):
     try:
-        validated = MeteomaticsResponse(**response_json)
+        validated = EnrichedWeatherResponse(**response_json)
         print("✅ Response successfully validated")
     except Exception as e:
         print("❌ Validation failed:", e)

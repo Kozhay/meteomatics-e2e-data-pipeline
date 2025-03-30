@@ -3,31 +3,31 @@ from airflow.operators.empty import EmptyOperator
 from airflow.utils.dates import days_ago
 from tasks.meteomatics_pipeline.meteomatics_get_data import WeatherDataFetcher
 
-city_list = ["Tallinn, Estonia", "Amsterdam, Netherlands", "Berlin, Germany"]
+locations_list = ["Tallinn, Estonia", "Amsterdam, Netherlands", "Berlin, Germany"]
 
 @task
-def fetch(city_name: str, run_time: str) -> dict:
-    return WeatherDataFetcher(city_name, run_time).fetch()
+def fetch(location_name: str, run_time: str) -> dict:
+    return WeatherDataFetcher(location_name, run_time).fetch()
 
 @task
 def validate(raw: dict) -> dict:
     return WeatherDataFetcher(
-        raw["city_name"], raw["run_time"]
+        raw["location_name"], raw["run_time"]
     ).validate(raw)
 
 @task
 def save(raw: dict) -> str:
     s3_bucket = "meteomatics-data-raw"
     return WeatherDataFetcher(
-        raw["city_name"], raw["run_time"]
+        raw["location_name"], raw["run_time"]
     ).save_to_s3_stage(raw, s3_bucket)
 
 @task_group(group_id="extract_weather")
 def extract_weather_group():
-    for city in city_list:
-        slug = city.lower().replace(",", "").replace(" ", "_")
+    for location in locations_list:
+        slug = location.lower().replace(",", "").replace(" ", "_")
         fetched = fetch.override(task_id=f"get_{slug}")(
-            city_name=city,
+            location_name=location,
             run_time="{{ ds }}"
         )
         validated = validate.override(task_id=f"validate_{slug}")(fetched)

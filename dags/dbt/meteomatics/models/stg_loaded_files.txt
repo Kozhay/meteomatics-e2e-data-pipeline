@@ -1,0 +1,17 @@
+{{ config(
+    materialized='incremental',
+    unique_key='file_path'
+) }}
+
+SELECT
+  METADATA$FILENAME AS file_path,
+  METADATA$FILE_ROW_NUMBER AS file_row_number,
+  METADATA$FILE_LAST_MODIFIED AS last_modified,
+  CURRENT_TIMESTAMP() AS loaded_at
+FROM  @{{source('s3_stage','my_s3_stage')}}
+
+{% if is_incremental() %}
+WHERE METADATA$FILENAME NOT IN (
+  SELECT file_path FROM {{ this }}
+)
+{% endif %}

@@ -16,14 +16,14 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 class WeatherDataFetcher:
-    def __init__(self, city_name: str, run_time: str):
-        self.city_name = city_name
+    def __init__(self, location_name: str, run_time: str):
+        self.location_name = location_name
         self.run_time = run_time
         self.start_time = self._calculate_start_time(run_time)
         self.end_time = self._calculate_end_time(run_time)
         self.config = self._load_config()
         self.username, self.password = self._get_credentials()
-        self.location = self._geocode_city()
+        self.location = self._geocode_location()
 
     def _calculate_start_time(self, run_time: str) -> str:
         dt = datetime.strptime(run_time, "%Y-%m-%d")
@@ -34,7 +34,6 @@ class WeatherDataFetcher:
         dt = datetime.strptime(run_time, "%Y-%m-%d")
         end_dt = dt + timedelta(days=7)
         return end_dt.strftime("%Y-%m-%dT00:00:00Z")
-
 
     def _load_config(self):
         config_path = "/opt/airflow/tasks/meteomatics_pipeline/api_config.yaml"
@@ -47,11 +46,19 @@ class WeatherDataFetcher:
         conn = BaseHook.get_connection("meteomatics_api")
         return conn.login, conn.password
 
-    def _geocode_city(self):
-        location = safe_geocode(self.city_name)
+    def _geocode_location(self):
+        location = safe_geocode(self.location_name)
         if not location:
-            raise ValueError(f"Could not geocode city: {self.city_name}")
+            raise ValueError(f"Could not geocode location: {self.location_name}")
         return location
+
+    def _split_city_country(self):
+        parts = self.location_name.split(",")
+        if len(parts) != 2:
+            raise ValueError("Location must be in 'City, Country' format")
+        city = parts[0].strip().lower().replace(" ", "_")
+        country = parts[1].strip().lower().replace(" ", "_")
+        return city, country
 
     def fetch(self) -> dict:
         lat, lon = self.location.latitude, self.location.longitude
@@ -68,44 +75,46 @@ class WeatherDataFetcher:
             logger.error("API error: %s - %s", response.status_code, response.text)
             raise ConnectionError(f"API error: {response.status_code} - {response.text}")
 
-        logger.info("Weather data fetched successfully for %s", self.city_name)
+        city, country = self._split_city_country()
+        raw_data = response.json()
+
+        # Inject metadata directly into the payload
+        enriched_data = {
+            "city": city,
+            "country": country,
+            "latitude": lat,
+            "longitude": lon,
+            "weather": raw_data
+        }
+
+        logger.info("Weather data fetched successfully for %s", self.location_name)
         return {
-            "city_name": self.city_name,
+            "location_name": self.location_name,
+            "city": city,
+            "country": country,
             "start_time": self.start_time,
             "end_time": self.end_time,
             "run_time": self.run_time,
-            "data": response.json()
+            "data": enriched_data
         }
 
     def validate(self, raw: dict) -> dict:
-        logger.info("Validating weather data for %s", raw["city_name"])
+        logger.info("Validating weather data for %s", raw["location_name"])
         validate_weather_response(raw["data"])
-        logger.info("Validation passed for %s", raw["city_name"])
+        logger.info("Validation passed for %s", raw["location_name"])
         return raw
 
     def save_to_s3_stage(self, raw: dict, s3_bucket: str) -> str:
-        city_slug = raw["city_name"].lower().replace(",", "").replace(" ", "_")
-        file_name = f"weather_raw_{city_slug}_{raw['run_time']}.json"
+        file_name = f"weather_raw_{raw['city']}_{raw['country']}_{raw['run_time']}.json"
         local_path = f"/tmp/{file_name}"
 
-        # Save compressed JSON locally
         with open(local_path, "wt", encoding="utf-8") as f:
             json.dump(raw["data"], f)
 
-        logger.info("Saved compressed JSON to: %s", local_path)
+        logger.info("Saved JSON to: %s", local_path)
 
-        # Parse country and city from input
-        city_parts = raw["city_name"].split(",")
-        if len(city_parts) != 2:
-            raise ValueError("City name must be in 'City, Country' format")
-        city = city_parts[0].strip().lower().replace(" ", "_")
-        country = city_parts[1].strip().lower().replace(" ", "_")
+        s3_key = f"{raw['country']}/{raw['city']}/{file_name}"
 
-        # Structured key: country/city/weather_raw_city_slug_date.json
-        s3_key = f"{country}/{city}/{file_name}"
-
-
-        # Use Airflow AWS connection
         try:
             conn = BaseHook.get_connection("aws_conn_id")
             aws_access_key = conn.login
@@ -119,7 +128,6 @@ class WeatherDataFetcher:
             )
             s3 = session.client("s3", config=Config(signature_version="s3v4"))
 
-            # Upload to S3
             s3.upload_file(local_path, s3_bucket, s3_key)
             logger.info("Uploaded to S3: s3://%s/%s", s3_bucket, s3_key)
             return f"s3://{s3_bucket}/{s3_key}"
