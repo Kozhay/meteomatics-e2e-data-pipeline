@@ -3,7 +3,7 @@ from airflow.operators.empty import EmptyOperator
 from airflow.utils.dates import days_ago
 from tasks.meteomatics_pipeline.meteomatics_get_data import WeatherDataFetcher
 
-city_list = ["Tallinn, Estonia", "Amsterdam, Netherlands"]
+city_list = ["Tallinn, Estonia", "Amsterdam, Netherlands", "Berlin, Germany"]
 
 @task
 def fetch(city_name: str, run_time: str) -> dict:

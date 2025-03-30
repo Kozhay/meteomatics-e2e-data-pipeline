@@ -2,5 +2,5 @@ pydantic
 requests
 geopy
 pytest
-astronomer-cosmos
+astronomer-cosmos[dbt-snowflake]
 apache-airflow-providers-snowflake

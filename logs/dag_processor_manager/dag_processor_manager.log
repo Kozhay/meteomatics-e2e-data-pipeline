@@ -10056,3 +10056,1818 @@ File Path                                              PID    Runtime      # DAG
 /opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.08s           2025-03-30T09:00:28                      12
 /opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T09:00:28                      12
 ================================================================================
+[2025-03-30T09:03:11.973+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-03-30T09:03:12.112+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-30T09:03:12.113+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-30T09:03:12.113+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T09:03:12.119+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-30T09:03:12.221+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                 61  0.04s             0           0                                                   0
+/opt/airflow/dags/extract_weather_from_meteomatics.py     62  0.03s             0           0                                                   0
+================================================================================
+[2025-03-30T09:03:42.626+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py     70  0.00s             1           0  0.15s           2025-03-30T09:03:12                      12
+/opt/airflow/dags/snowflake_processing.py                 69  0.01s             1           0  0.15s           2025-03-30T09:03:12                      12
+================================================================================
+[2025-03-30T09:04:13.040+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py     78  0.00s             1           0  0.13s           2025-03-30T09:03:42                      12
+/opt/airflow/dags/snowflake_processing.py                 77  0.01s             1           0  0.12s           2025-03-30T09:03:42                      12
+================================================================================
+[2025-03-30T09:04:43.375+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py     90  0.00s             1           0  0.09s           2025-03-30T09:04:13                      12
+/opt/airflow/dags/snowflake_processing.py                 89  0.02s             1           0  0.09s           2025-03-30T09:04:13                      12
+================================================================================
+[2025-03-30T09:05:13.788+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                 97  0.02s             1           0  0.12s           2025-03-30T09:04:43                      12
+/opt/airflow/dags/extract_weather_from_meteomatics.py     98  0.01s             1           0  0.12s           2025-03-30T09:04:43                      12
+================================================================================
+[2025-03-30T09:05:44.172+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                105  0.02s             1           0  0.09s           2025-03-30T09:05:13                      12
+/opt/airflow/dags/extract_weather_from_meteomatics.py    106  0.00s             1           0  0.08s           2025-03-30T09:05:13                      12
+================================================================================
+[2025-03-30T09:06:14.516+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                113  0.03s             1           0  0.08s           2025-03-30T09:05:44                      12
+/opt/airflow/dags/extract_weather_from_meteomatics.py    114  0.01s             1           0  0.07s           2025-03-30T09:05:44                      12
+================================================================================
+[2025-03-30T09:06:45.042+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.43s           2025-03-30T09:06:37                      43
+/opt/airflow/dags/extract_weather_from_meteomatics.py    122  0.01s             1           0  0.10s           2025-03-30T09:06:14                      12
+================================================================================
+[2025-03-30T09:07:15.436+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    131  0.01s             1           0  0.12s           2025-03-30T09:06:45                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T09:07:10                      32
+================================================================================
+[2025-03-30T09:07:45.765+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.09s           2025-03-30T09:07:40                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    139  0.00s             1           0  0.08s           2025-03-30T09:07:15                      12
+================================================================================
+[2025-03-30T09:08:12.132+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T09:08:12.140+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-30T09:08:16.113+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.09s           2025-03-30T09:08:11                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    147  0.01s             1           0  0.09s           2025-03-30T09:07:45                      12
+================================================================================
+[2025-03-30T09:08:46.482+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    155  0.01s             1           0  0.09s           2025-03-30T09:08:16                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T09:08:41                      10
+================================================================================
+[2025-03-30T09:09:16.798+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    163  0.00s             1           0  0.08s           2025-03-30T09:08:46                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T09:09:11                      10
+================================================================================
+[2025-03-30T09:09:47.125+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    178  0.01s             1           0  0.07s           2025-03-30T09:09:16                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.05s           2025-03-30T09:09:42                      10
+================================================================================
+[2025-03-30T09:10:17.459+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    186  0.01s             1           0  0.07s           2025-03-30T09:09:47                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T09:10:12                      10
+================================================================================
+[2025-03-30T09:10:47.834+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.10s           2025-03-30T09:10:42                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    194  0.01s             1           0  0.07s           2025-03-30T09:10:17                      12
+================================================================================
+[2025-03-30T09:11:18.215+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    202  0.01s             1           0  0.08s           2025-03-30T09:10:47                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T09:10:52                      10
+================================================================================
+[2025-03-30T09:20:58.677+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-03-30T09:20:58.685+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-30T09:20:58.685+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-30T09:20:58.686+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T09:20:58.695+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-30T09:21:00.714+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                 61  0.03s             0           0                                                   0
+/opt/airflow/dags/extract_weather_from_meteomatics.py     62  0.02s             0           0                                                   0
+================================================================================
+[2025-03-30T09:21:31.690+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py     76  0.00s             1           0  0.32s           2025-03-30T09:21:01                      12
+/opt/airflow/dags/snowflake_processing.py                 75  0.01s             1           0  0.31s           2025-03-30T09:21:00                      10
+================================================================================
+[2025-03-30T09:22:02.063+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py     84  0.01s             1           0  0.12s           2025-03-30T09:21:31                      12
+/opt/airflow/dags/snowflake_processing.py                 83  0.02s             1           0  0.09s           2025-03-30T09:21:31                      10
+================================================================================
+[2025-03-30T09:22:32.514+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py     92  0.01s             1           0  0.12s           2025-03-30T09:22:02                      12
+/opt/airflow/dags/snowflake_processing.py                 91  0.02s             1           0  0.12s           2025-03-30T09:22:02                      10
+================================================================================
+[2025-03-30T09:23:02.860+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    100  0.01s             1           0  0.08s           2025-03-30T09:22:32                      12
+/opt/airflow/dags/snowflake_processing.py                 99  0.02s             1           0  0.07s           2025-03-30T09:22:32                      10
+================================================================================
+[2025-03-30T09:23:33.194+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                107  0.02s             1           0  0.09s           2025-03-30T09:23:02                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    108  0.01s             1           0  0.09s           2025-03-30T09:23:02                      12
+================================================================================
+[2025-03-30T09:24:03.601+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                115  0.02s             1           0  0.10s           2025-03-30T09:23:33                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    116  0.01s             1           0  0.09s           2025-03-30T09:23:33                      12
+================================================================================
+[2025-03-30T09:24:33.970+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                123  0.02s             1           0  0.09s           2025-03-30T09:24:03                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    124  0.01s             1           0  0.09s           2025-03-30T09:24:03                      12
+================================================================================
+[2025-03-30T09:25:04.358+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                131  0.02s             1           0  0.10s           2025-03-30T09:24:34                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    132  0.01s             1           0  0.10s           2025-03-30T09:24:34                      12
+================================================================================
+[2025-03-30T09:25:34.713+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                139  0.02s             1           0  0.09s           2025-03-30T09:25:04                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    140  0.00s             1           0  0.09s           2025-03-30T09:25:04                      12
+================================================================================
+[2025-03-30T09:25:59.021+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T09:25:59.036+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-30T09:26:05.121+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    148  0.01s             1           0  0.10s           2025-03-30T09:25:34                      12
+/opt/airflow/dags/snowflake_processing.py                147  0.02s             1           0  0.09s           2025-03-30T09:25:34                      10
+================================================================================
+[2025-03-30T09:26:35.541+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                155  0.02s             1           0  0.11s           2025-03-30T09:26:05                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    156  0.01s             1           0  0.11s           2025-03-30T09:26:05                      12
+================================================================================
+[2025-03-30T09:27:05.936+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                163  0.02s             1           0  0.10s           2025-03-30T09:26:35                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    164  0.01s             1           0  0.10s           2025-03-30T09:26:35                      12
+================================================================================
+[2025-03-30T09:27:36.328+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                171  0.02s             1           0  0.10s           2025-03-30T09:27:06                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    172  0.01s             1           0  0.10s           2025-03-30T09:27:06                      12
+================================================================================
+[2025-03-30T09:28:06.737+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                179  0.04s             1           0  0.09s           2025-03-30T09:27:36                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    180  0.01s             1           0  0.09s           2025-03-30T09:27:36                      12
+================================================================================
+[2025-03-30T09:28:37.145+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                187  0.02s             1           0  0.12s           2025-03-30T09:28:06                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    188  0.01s             1           0  0.11s           2025-03-30T09:28:06                      12
+================================================================================
+[2025-03-30T09:29:07.538+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                195  0.02s             1           0  0.08s           2025-03-30T09:28:37                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    196  0.01s             1           0  0.08s           2025-03-30T09:28:37                      12
+================================================================================
+[2025-03-30T09:29:37.919+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                203  0.02s             1           0  0.10s           2025-03-30T09:29:07                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    204  0.01s             1           0  0.09s           2025-03-30T09:29:07                      12
+================================================================================
+[2025-03-30T09:30:08.349+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                210  0.01s             1           0  0.10s           2025-03-30T09:29:38                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    211  0.01s             1           0  0.10s           2025-03-30T09:29:38                      12
+================================================================================
+[2025-03-30T09:30:38.758+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    219  0.00s             1           0  0.13s           2025-03-30T09:30:08                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.11s           2025-03-30T09:30:23                      32
+================================================================================
+[2025-03-30T09:30:59.082+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T09:30:59.091+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-30T09:31:09.214+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.10s           2025-03-30T09:30:58                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    228  0.01s             1           0  0.06s           2025-03-30T09:30:38                      12
+================================================================================
+[2025-03-30T09:31:39.531+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    236  0.01s             1           0  0.09s           2025-03-30T09:31:09                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.08s           2025-03-30T09:31:28                      10
+================================================================================
+[2025-03-30T09:32:09.870+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.09s           2025-03-30T09:31:58                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    244  0.01s             1           0  0.09s           2025-03-30T09:31:39                      12
+================================================================================
+[2025-03-30T09:32:40.175+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    252  0.01s             1           0  0.09s           2025-03-30T09:32:09                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.05s           2025-03-30T09:32:29                      10
+================================================================================
+[2025-03-30T09:33:10.453+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    260  0.00s             1           0  0.10s           2025-03-30T09:32:40                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.06s           2025-03-30T09:32:59                      10
+================================================================================
+[2025-03-30T09:33:40.783+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.08s           2025-03-30T09:33:29                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    268  0.01s             1           0  0.07s           2025-03-30T09:33:10                      12
+================================================================================
+[2025-03-30T09:34:11.211+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    278  0.01s             1           0  0.09s           2025-03-30T09:33:40                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.06s           2025-03-30T09:34:07                       9
+================================================================================
+[2025-03-30T09:34:41.540+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    286  0.01s             1           0  0.10s           2025-03-30T09:34:11                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.09s           2025-03-30T09:34:37                      10
+================================================================================
+[2025-03-30T09:35:11.816+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    294  0.01s             1           0  0.10s           2025-03-30T09:34:41                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.06s           2025-03-30T09:35:07                      10
+================================================================================
+[2025-03-30T09:35:42.190+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.11s           2025-03-30T09:35:38                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    302  0.01s             1           0  0.10s           2025-03-30T09:35:11                      12
+================================================================================
+[2025-03-30T09:35:59.406+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T09:35:59.421+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-30T09:36:12.584+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.16s           2025-03-30T09:36:08                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    309  0.00s             1           0  0.10s           2025-03-30T09:35:42                      12
+================================================================================
+[2025-03-30T09:36:42.938+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.11s           2025-03-30T09:36:38                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    316  0.01s             1           0  0.08s           2025-03-30T09:36:12                      12
+================================================================================
+[2025-03-30T09:37:13.302+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    324  0.01s             1           0  0.10s           2025-03-30T09:36:43                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.09s           2025-03-30T09:37:09                      10
+================================================================================
+[2025-03-30T09:37:43.657+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    332  0.01s             1           0  0.09s           2025-03-30T09:37:13                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T09:37:39                      10
+================================================================================
+[2025-03-30T09:38:13.958+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.09s           2025-03-30T09:38:09                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    340  0.01s             1           0  0.08s           2025-03-30T09:37:43                      12
+================================================================================
+[2025-03-30T09:38:44.330+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    348  0.01s             1           0  0.09s           2025-03-30T09:38:14                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.06s           2025-03-30T09:38:40                      10
+================================================================================
+[2025-03-30T09:39:14.681+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    356  0.00s             1           0  0.08s           2025-03-30T09:38:44                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.08s           2025-03-30T09:39:10                      10
+================================================================================
+[2025-03-30T09:39:45.011+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    364  0.00s             1           0  0.08s           2025-03-30T09:39:14                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.05s           2025-03-30T09:39:41                      10
+================================================================================
+[2025-03-30T09:40:15.333+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.14s           2025-03-30T09:40:11                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    372  0.01s             1           0  0.08s           2025-03-30T09:39:45                      12
+================================================================================
+[2025-03-30T09:40:45.685+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.11s           2025-03-30T09:40:41                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    380  0.01s             1           0  0.09s           2025-03-30T09:40:15                      12
+================================================================================
+[2025-03-30T09:40:59.882+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T09:40:59.891+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-30T09:41:16.111+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    388  0.01s             1           0  0.11s           2025-03-30T09:40:45                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.10s           2025-03-30T09:41:12                      10
+================================================================================
+[2025-03-30T09:41:46.402+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    396  0.01s             1           0  0.11s           2025-03-30T09:41:16                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.09s           2025-03-30T09:41:42                      10
+================================================================================
+[2025-03-30T09:42:16.753+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    404  0.01s             1           0  0.11s           2025-03-30T09:41:46                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.10s           2025-03-30T09:42:12                      10
+================================================================================
+[2025-03-30T09:42:47.152+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.10s           2025-03-30T09:42:43                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    412  0.01s             1           0  0.09s           2025-03-30T09:42:16                      12
+================================================================================
+[2025-03-30T09:43:17.526+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    420  0.01s             1           0  0.11s           2025-03-30T09:42:47                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.11s           2025-03-30T09:43:13                      10
+================================================================================
+[2025-03-30T09:43:47.907+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    428  0.00s             1           0  0.15s           2025-03-30T09:43:17                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.08s           2025-03-30T09:43:43                      10
+================================================================================
+[2025-03-30T09:44:18.261+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.12s           2025-03-30T09:44:14                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    436  0.00s             1           0  0.07s           2025-03-30T09:43:47                      12
+================================================================================
+[2025-03-30T09:44:48.647+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.12s           2025-03-30T09:44:44                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    444  0.01s             1           0  0.06s           2025-03-30T09:44:18                      12
+================================================================================
+[2025-03-30T09:45:18.980+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.13s           2025-03-30T09:45:14                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    452  0.01s             1           0  0.08s           2025-03-30T09:44:48                      12
+================================================================================
+[2025-03-30T09:45:49.351+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    460  0.01s             1           0  0.11s           2025-03-30T09:45:19                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.08s           2025-03-30T09:45:45                      10
+================================================================================
+[2025-03-30T09:46:00.468+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T09:46:00.473+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-30T09:46:19.686+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    468  0.01s             1           0  0.09s           2025-03-30T09:45:49                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.08s           2025-03-30T09:46:15                      10
+================================================================================
+[2025-03-30T09:46:50.021+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    476  0.01s             1           0  0.10s           2025-03-30T09:46:19                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.09s           2025-03-30T09:46:46                      10
+================================================================================
+[2025-03-30T09:47:20.461+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    484  0.01s             1           0  0.11s           2025-03-30T09:46:50                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.11s           2025-03-30T09:47:16                      10
+================================================================================
+[2025-03-30T09:47:50.862+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    492  0.01s             1           0  0.11s           2025-03-30T09:47:20                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.09s           2025-03-30T09:47:46                      10
+================================================================================
+[2025-03-30T09:48:21.226+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.09s           2025-03-30T09:48:17                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    500  0.01s             1           0  0.09s           2025-03-30T09:47:50                      12
+================================================================================
+[2025-03-30T09:48:51.664+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.10s           2025-03-30T09:48:47                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    508  0.01s             1           0  0.09s           2025-03-30T09:48:21                      12
+================================================================================
+[2025-03-30T09:49:22.002+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.12s           2025-03-30T09:49:18                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    516  0.01s             1           0  0.10s           2025-03-30T09:48:51                      12
+================================================================================
+[2025-03-30T09:49:52.321+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    524  0.01s             1           0  0.08s           2025-03-30T09:49:22                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T09:49:48                      10
+================================================================================
+[2025-03-30T09:50:22.653+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.11s           2025-03-30T09:50:18                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    532  0.01s             1           0  0.10s           2025-03-30T09:49:52                      12
+================================================================================
+[2025-03-30T09:50:53.029+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.16s           2025-03-30T09:50:49                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    540  0.01s             1           0  0.10s           2025-03-30T09:50:22                      12
+================================================================================
+[2025-03-30T09:51:01.120+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T09:51:01.129+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-30T09:51:23.343+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.09s           2025-03-30T09:51:19                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    548  0.00s             1           0  0.09s           2025-03-30T09:50:53                      12
+================================================================================
+[2025-03-30T09:51:53.724+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.08s           2025-03-30T09:51:49                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    556  0.01s             1           0  0.08s           2025-03-30T09:51:23                      12
+================================================================================
+[2025-03-30T09:52:24.090+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    564  0.02s             1           0  0.11s           2025-03-30T09:51:53                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.08s           2025-03-30T09:52:20                      10
+================================================================================
+[2025-03-30T09:52:54.432+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    572  0.01s             1           0  0.12s           2025-03-30T09:52:24                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.12s           2025-03-30T09:52:50                      10
+================================================================================
+[2025-03-30T09:53:24.803+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.13s           2025-03-30T09:53:20                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    580  0.00s             1           0  0.10s           2025-03-30T09:52:54                      12
+================================================================================
+[2025-03-30T09:53:55.109+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.09s           2025-03-30T09:53:51                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    588  0.01s             1           0  0.06s           2025-03-30T09:53:24                      12
+================================================================================
+[2025-03-30T09:54:25.471+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.11s           2025-03-30T09:54:21                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    596  0.01s             1           0  0.09s           2025-03-30T09:53:55                      12
+================================================================================
+[2025-03-30T09:54:55.865+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.10s           2025-03-30T09:54:51                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    604  0.00s             1           0  0.10s           2025-03-30T09:54:25                      12
+================================================================================
+[2025-03-30T09:55:26.211+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.10s           2025-03-30T09:55:22                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    612  0.00s             1           0  0.06s           2025-03-30T09:54:55                      12
+================================================================================
+[2025-03-30T09:55:56.627+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.10s           2025-03-30T09:55:52                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    620  0.00s             1           0  0.08s           2025-03-30T09:55:26                      12
+================================================================================
+[2025-03-30T09:56:01.737+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T09:56:01.743+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-30T09:56:27.001+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.10s           2025-03-30T09:56:23                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    628  0.01s             1           0  0.08s           2025-03-30T09:55:56                      12
+================================================================================
+[2025-03-30T09:56:57.408+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    636  0.01s             1           0  0.09s           2025-03-30T09:56:27                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.09s           2025-03-30T09:56:53                      10
+================================================================================
+[2025-03-30T09:57:27.783+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    645  0.01s             1           0  0.12s           2025-03-30T09:56:57                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.11s           2025-03-30T09:57:23                      10
+================================================================================
+[2025-03-30T09:57:58.189+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    653  0.01s             1           0  0.13s           2025-03-30T09:57:27                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.11s           2025-03-30T09:57:54                      10
+================================================================================
+[2025-03-30T09:58:28.602+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.10s           2025-03-30T09:58:24                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    661  0.01s             1           0  0.09s           2025-03-30T09:57:58                      12
+================================================================================
+[2025-03-30T09:58:58.969+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    669  0.01s             1           0  0.09s           2025-03-30T09:58:28                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.08s           2025-03-30T09:58:54                      10
+================================================================================
+[2025-03-30T09:59:29.325+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.11s           2025-03-30T09:59:25                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    677  0.01s             1           0  0.09s           2025-03-30T09:58:59                      12
+================================================================================
+[2025-03-30T09:59:59.800+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.14s           2025-03-30T09:59:55                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.12s           2025-03-30T09:59:49                      34
+================================================================================
+[2025-03-30T10:00:30.124+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.11s           2025-03-30T10:00:26                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.08s           2025-03-30T10:00:20                      12
+================================================================================
+[2025-03-30T10:01:00.437+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.16s           2025-03-30T10:00:50                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.08s           2025-03-30T10:00:56                      10
+================================================================================
+[2025-03-30T10:01:02.461+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T10:01:02.471+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-30T10:01:30.809+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.10s           2025-03-30T10:01:20                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.08s           2025-03-30T10:01:26                      10
+================================================================================
+[2025-03-30T10:02:01.168+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.18s           2025-03-30T10:01:57                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.10s           2025-03-30T10:01:51                      12
+================================================================================
+[2025-03-30T10:02:31.528+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.12s           2025-03-30T10:02:27                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.11s           2025-03-30T10:02:21                      12
+================================================================================
+[2025-03-30T10:03:01.851+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.09s           2025-03-30T10:02:57                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.07s           2025-03-30T10:02:51                      12
+================================================================================
+[2025-03-30T10:03:32.211+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.13s           2025-03-30T10:03:28                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.09s           2025-03-30T10:03:22                      12
+================================================================================
+[2025-03-30T10:04:02.573+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.11s           2025-03-30T10:03:52                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.08s           2025-03-30T10:03:58                      10
+================================================================================
+[2025-03-30T10:04:32.961+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.13s           2025-03-30T10:04:19                      32
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.11s           2025-03-30T10:04:22                      12
+================================================================================
+[2025-03-30T10:05:03.315+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.08s           2025-03-30T10:04:50                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.07s           2025-03-30T10:04:53                      12
+================================================================================
+[2025-03-30T10:05:33.677+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.14s           2025-03-30T10:05:23                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T10:05:24                      32
+================================================================================
+[2025-03-30T10:06:03.058+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T10:06:03.062+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-30T10:06:04.078+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.14s           2025-03-30T10:05:55                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.12s           2025-03-30T10:05:53                      12
+================================================================================
+[2025-03-30T10:06:34.399+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.10s           2025-03-30T10:06:24                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.06s           2025-03-30T10:06:25                      10
+================================================================================
+[2025-03-30T10:07:04.697+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.10s           2025-03-30T10:06:54                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T10:06:55                      10
+================================================================================
+[2025-03-30T10:07:35.042+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T10:07:25                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.06s           2025-03-30T10:07:24                      12
+================================================================================
+[2025-03-30T10:08:05.347+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.10s           2025-03-30T10:07:55                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T10:07:56                      10
+================================================================================
+[2025-03-30T10:08:35.619+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.17s           2025-03-30T10:08:25                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T10:08:26                      10
+================================================================================
+[2025-03-30T10:09:05.963+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.09s           2025-03-30T10:08:55                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.08s           2025-03-30T10:08:56                      10
+================================================================================
+[2025-03-30T10:09:36.301+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.13s           2025-03-30T10:09:26                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T10:09:27                      10
+================================================================================
+[2025-03-30T10:10:06.628+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.08s           2025-03-30T10:09:56                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T10:09:57                      10
+================================================================================
+[2025-03-30T10:10:36.880+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.09s           2025-03-30T10:10:26                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T10:10:27                      10
+================================================================================
+[2025-03-30T10:11:03.207+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T10:11:03.256+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-30T10:11:07.300+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.07s           2025-03-30T10:10:57                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T10:10:58                      10
+================================================================================
+[2025-03-30T10:11:37.568+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.22s           2025-03-30T10:11:27                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T10:11:28                      10
+================================================================================
+[2025-03-30T10:12:07.909+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.09s           2025-03-30T10:11:57                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T10:11:58                      10
+================================================================================
+[2025-03-30T10:12:38.199+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.11s           2025-03-30T10:12:28                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.08s           2025-03-30T10:12:29                      10
+================================================================================
+[2025-03-30T10:13:08.555+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.14s           2025-03-30T10:12:58                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.08s           2025-03-30T10:12:59                      10
+================================================================================
+[2025-03-30T10:13:38.898+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.09s           2025-03-30T10:13:28                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T10:13:29                      10
+================================================================================
+[2025-03-30T10:14:09.229+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.07s           2025-03-30T10:13:59                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T10:14:00                      10
+================================================================================
+[2025-03-30T10:14:39.513+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.09s           2025-03-30T10:14:29                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.04s           2025-03-30T10:14:30                      10
+================================================================================
+[2025-03-30T10:15:09.779+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.12s           2025-03-30T10:14:59                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.08s           2025-03-30T10:15:00                      10
+================================================================================
+[2025-03-30T10:15:40.120+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.09s           2025-03-30T10:15:30                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T10:15:31                      10
+================================================================================
+[2025-03-30T10:16:03.385+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T10:16:03.395+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-30T10:16:10.455+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.08s           2025-03-30T10:16:00                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.06s           2025-03-30T10:16:01                      10
+================================================================================
+[2025-03-30T10:16:40.733+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.18s           2025-03-30T10:16:30                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.09s           2025-03-30T10:16:31                      10
+================================================================================
+[2025-03-30T10:17:11.045+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.11s           2025-03-30T10:17:01                      12
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.07s           2025-03-30T10:17:02                      10
+================================================================================
+[2025-03-30T10:17:41.341+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.11s           2025-03-30T10:17:31                      12
+/opt/airflow/dags/snowflake_processing.py                983  0.00s             1           0  0.07s           2025-03-30T10:17:32                      10
+================================================================================
+[2025-03-30T10:18:11.663+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                991  0.01s             1           0  0.10s           2025-03-30T10:17:41                      32
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.08s           2025-03-30T10:18:01                      12
+================================================================================
+[2025-03-30T10:18:42.077+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                999  0.02s             1           0  0.08s           2025-03-30T10:18:11                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.06s           2025-03-30T10:18:31                      12
+================================================================================
+[2025-03-30T10:19:24.413+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-03-30T10:19:24.425+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-30T10:19:24.425+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-30T10:19:24.426+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T10:19:24.433+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2025-03-30T10:19:27.048+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  2.54s           2025-03-30T10:19:27                       3
+/opt/airflow/dags/snowflake_processing.py                 61  0.05s             0           0                                                            0
+/opt/airflow/dags/extract_weather_from_meteomatics.py     62  0.01s             0           0                                                            0
+================================================================================
+[2025-03-30T10:19:57.526+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dbt_dat_test.py                         69  0.02s             0           1  2.54s           2025-03-30T10:19:27                       3
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.20s           2025-03-30T10:19:27                      12
+/opt/airflow/dags/snowflake_processing.py                 70  0.01s             1           0  0.19s           2025-03-30T10:19:27                      10
+================================================================================
+[2025-03-30T10:20:27.846+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                 79  0.01s             1           0  0.09s           2025-03-30T10:19:57                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py     80  0.00s             1           0  0.08s           2025-03-30T10:19:57                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.03s           2025-03-30T10:20:01                       5
+================================================================================
+[2025-03-30T10:20:58.199+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py     89  0.01s             1           0  0.09s           2025-03-30T10:20:27                      12
+/opt/airflow/dags/snowflake_processing.py                 88  0.02s             1           0  0.09s           2025-03-30T10:20:27                      10
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.03s           2025-03-30T10:20:32                       5
+================================================================================
+[2025-03-30T10:21:28.555+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                 98  0.01s             1           0  0.10s           2025-03-30T10:20:58                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py     99  0.00s             1           0  0.09s           2025-03-30T10:20:58                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.06s           2025-03-30T10:21:23                       5
+================================================================================
+[2025-03-30T10:21:58.888+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    108  0.00s             1           0  0.08s           2025-03-30T10:21:28                      12
+/opt/airflow/dags/snowflake_processing.py                107  0.02s             1           0  0.07s           2025-03-30T10:21:28                      10
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.03s           2025-03-30T10:21:41                       5
+================================================================================
+[2025-03-30T10:22:29.350+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                116  0.02s             1           0  0.11s           2025-03-30T10:21:58                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    117  0.00s             1           0  0.11s           2025-03-30T10:21:58                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.04s           2025-03-30T10:22:08                       5
+================================================================================
+[2025-03-30T10:22:59.799+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                126  0.02s             1           0  0.11s           2025-03-30T10:22:29                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    127  0.01s             1           0  0.10s           2025-03-30T10:22:29                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.06s           2025-03-30T10:22:46                       5
+================================================================================
+[2025-03-30T10:23:30.210+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    136  0.01s             1           0  0.11s           2025-03-30T10:22:59                      12
+/opt/airflow/dags/snowflake_processing.py                135  0.02s             1           0  0.11s           2025-03-30T10:22:59                      10
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.04s           2025-03-30T10:23:17                       5
+================================================================================
+[2025-03-30T10:24:00.648+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                144  0.02s             1           0  0.10s           2025-03-30T10:23:30                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    145  0.00s             1           0  0.10s           2025-03-30T10:23:30                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.05s           2025-03-30T10:23:47                       5
+================================================================================
+[2025-03-30T10:24:24.950+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T10:24:24.963+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2025-03-30T10:24:31.044+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                153  0.02s             1           0  0.10s           2025-03-30T10:24:00                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    154  0.01s             1           0  0.09s           2025-03-30T10:24:00                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.06s           2025-03-30T10:24:17                       5
+================================================================================
+[2025-03-30T10:25:01.431+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    163  0.00s             1           0  0.09s           2025-03-30T10:24:31                      12
+/opt/airflow/dags/snowflake_processing.py                162  0.01s             1           0  0.09s           2025-03-30T10:24:31                      10
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.06s           2025-03-30T10:24:48                       5
+================================================================================
+[2025-03-30T10:25:31.840+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    171  0.01s             1           0  0.09s           2025-03-30T10:25:01                      12
+/opt/airflow/dags/snowflake_processing.py                170  0.02s             1           0  0.09s           2025-03-30T10:25:01                      10
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.06s           2025-03-30T10:25:18                       5
+================================================================================
+[2025-03-30T10:26:02.226+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    180  0.01s             1           0  0.08s           2025-03-30T10:25:31                      12
+/opt/airflow/dags/snowflake_processing.py                179  0.02s             1           0  0.08s           2025-03-30T10:25:31                      10
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.02s           2025-03-30T10:25:49                       5
+================================================================================
+[2025-03-30T10:26:32.615+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                188  0.01s             1           0  0.09s           2025-03-30T10:26:02                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    189  0.00s             1           0  0.09s           2025-03-30T10:26:02                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.07s           2025-03-30T10:26:19                       5
+================================================================================
+[2025-03-30T10:27:02.971+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    198  0.00s             1           0  0.09s           2025-03-30T10:26:32                      12
+/opt/airflow/dags/snowflake_processing.py                197  0.01s             1           0  0.09s           2025-03-30T10:26:32                      10
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.07s           2025-03-30T10:26:49                       5
+================================================================================
+[2025-03-30T10:27:33.320+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    207  0.00s             1           0  0.07s           2025-03-30T10:27:03                      12
+/opt/airflow/dags/snowflake_processing.py                206  0.01s             1           0  0.06s           2025-03-30T10:27:03                      10
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.05s           2025-03-30T10:27:20                       5
+================================================================================
+[2025-03-30T10:28:03.743+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    216  0.01s             1           0  0.08s           2025-03-30T10:27:33                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.08s           2025-03-30T10:27:50                       5
+/opt/airflow/dags/snowflake_processing.py                215  0.02s             1           0  0.07s           2025-03-30T10:27:33                      10
+================================================================================
+[2025-03-30T10:28:34.132+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                224  0.02s             1           0  0.09s           2025-03-30T10:28:03                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    225  0.01s             1           0  0.08s           2025-03-30T10:28:03                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.05s           2025-03-30T10:28:21                       5
+================================================================================
+[2025-03-30T10:29:04.538+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                233  0.02s             1           0  0.08s           2025-03-30T10:28:34                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    234  0.01s             1           0  0.08s           2025-03-30T10:28:34                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.07s           2025-03-30T10:28:51                       5
+================================================================================
+[2025-03-30T10:29:25.814+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T10:29:25.820+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2025-03-30T10:29:34.914+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                242  0.02s             1           0  0.09s           2025-03-30T10:29:04                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    243  0.01s             1           0  0.09s           2025-03-30T10:29:04                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.05s           2025-03-30T10:29:21                       5
+================================================================================
+[2025-03-30T10:30:05.285+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                251  0.02s             1           0  0.09s           2025-03-30T10:29:34                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    252  0.01s             1           0  0.09s           2025-03-30T10:29:34                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.07s           2025-03-30T10:29:52                       5
+================================================================================
+[2025-03-30T10:30:35.665+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    261  0.00s             1           0  0.09s           2025-03-30T10:30:05                      12
+/opt/airflow/dags/snowflake_processing.py                260  0.01s             1           0  0.08s           2025-03-30T10:30:05                      10
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.07s           2025-03-30T10:30:22                       5
+================================================================================
+[2025-03-30T10:31:06.046+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    270  0.00s             1           0  0.09s           2025-03-30T10:30:35                      12
+/opt/airflow/dags/snowflake_processing.py                269  0.01s             1           0  0.08s           2025-03-30T10:30:35                      10
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.07s           2025-03-30T10:30:52                       5
+================================================================================
+[2025-03-30T10:31:36.471+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    279  0.00s             1           0  0.09s           2025-03-30T10:31:06                      12
+/opt/airflow/dags/snowflake_processing.py                278  0.02s             1           0  0.08s           2025-03-30T10:31:06                      10
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.07s           2025-03-30T10:31:23                       5
+================================================================================
+[2025-03-30T10:32:06.852+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                287  0.01s             1           0  0.11s           2025-03-30T10:31:36                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    288  0.00s             1           0  0.11s           2025-03-30T10:31:36                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.07s           2025-03-30T10:31:53                       5
+================================================================================
+[2025-03-30T10:37:01.500+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-03-30T10:37:01.508+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-30T10:37:01.509+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-30T10:37:01.509+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T10:37:01.514+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2025-03-30T10:37:03.199+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  1.61s           2025-03-30T10:37:03                       5
+/opt/airflow/dags/snowflake_processing.py                 56  0.05s             0           0                                                            0
+/opt/airflow/dags/extract_weather_from_meteomatics.py     57  0.00s             0           0                                                            0
+================================================================================
+[2025-03-30T10:37:33.944+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dbt_dat_test.py                         70  0.01s             0           1  1.61s           2025-03-30T10:37:03                       5
+/opt/airflow/dags/snowflake_processing.py                 71  0.00s             1           0  0.55s           2025-03-30T10:37:03                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.54s           2025-03-30T10:37:03                      12
+================================================================================
+[2025-03-30T10:38:04.523+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                 80  0.01s             1           0  0.28s           2025-03-30T10:37:34                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.25s           2025-03-30T10:37:34                      12
+/opt/airflow/dags/dbt_dat_test.py                         79  0.02s             0           1  0.05s           2025-03-30T10:37:33                       5
+================================================================================
+[2025-03-30T10:38:34.866+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.16s           2025-03-30T10:38:04                      12
+/opt/airflow/dags/snowflake_processing.py                 89  0.01s             1           0  0.06s           2025-03-30T10:38:04                      10
+/opt/airflow/dags/dbt_dat_test.py                         88  0.02s             0           1  0.05s           2025-03-30T10:38:04                       5
+================================================================================
+[2025-03-30T10:39:05.265+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.29s           2025-03-30T10:38:35                      12
+/opt/airflow/dags/snowflake_processing.py                 98  0.01s             1           0  0.10s           2025-03-30T10:38:34                      10
+/opt/airflow/dags/dbt_dat_test.py                         97  0.02s             0           1  0.08s           2025-03-30T10:38:34                       5
+================================================================================
+[2025-03-30T10:39:35.702+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.47s           2025-03-30T10:39:05                      12
+/opt/airflow/dags/snowflake_processing.py                107  0.01s             1           0  0.10s           2025-03-30T10:39:05                      10
+/opt/airflow/dags/dbt_dat_test.py                        106  0.02s             0           1  0.07s           2025-03-30T10:39:05                       5
+================================================================================
+[2025-03-30T10:40:06.260+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                116  0.00s             1           0  0.28s           2025-03-30T10:39:35                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.15s           2025-03-30T10:39:36                      12
+/opt/airflow/dags/dbt_dat_test.py                        115  0.02s             0           1  0.08s           2025-03-30T10:39:35                       5
+================================================================================
+[2025-03-30T10:40:36.943+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                125  0.01s             1           0  0.33s           2025-03-30T10:40:06                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.28s           2025-03-30T10:40:06                      12
+/opt/airflow/dags/dbt_dat_test.py                        124  0.02s             0           1  0.08s           2025-03-30T10:40:06                       5
+================================================================================
+[2025-03-30T10:41:07.356+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                134  0.01s             1           0  0.26s           2025-03-30T10:40:37                      10
+/opt/airflow/dags/dbt_dat_test.py                        133  0.02s             0           1  0.06s           2025-03-30T10:40:36                       5
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.06s           2025-03-30T10:40:37                      12
+================================================================================
+[2025-03-30T10:41:37.710+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.23s           2025-03-30T10:41:07                      12
+/opt/airflow/dags/snowflake_processing.py                143  0.00s             1           0  0.09s           2025-03-30T10:41:07                      10
+/opt/airflow/dags/dbt_dat_test.py                        142  0.02s             0           1  0.06s           2025-03-30T10:41:07                       5
+================================================================================
+[2025-03-30T10:42:01.994+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T10:42:02.016+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2025-03-30T10:42:08.114+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.21s           2025-03-30T10:41:37                      12
+/opt/airflow/dags/snowflake_processing.py                152  0.01s             1           0  0.07s           2025-03-30T10:41:37                      10
+/opt/airflow/dags/dbt_dat_test.py                        151  0.02s             0           1  0.05s           2025-03-30T10:41:37                       5
+================================================================================
+[2025-03-30T10:42:38.674+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                161  0.01s             1           0  0.24s           2025-03-30T10:42:08                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.20s           2025-03-30T10:42:08                      12
+/opt/airflow/dags/dbt_dat_test.py                        160  0.02s             0           1  0.06s           2025-03-30T10:42:08                       5
+================================================================================
+[2025-03-30T10:43:09.213+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                170  0.00s             1           0  0.21s           2025-03-30T10:42:38                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.20s           2025-03-30T10:42:38                      12
+/opt/airflow/dags/dbt_dat_test.py                        169  0.01s             0           1  0.06s           2025-03-30T10:42:38                       5
+================================================================================
+[2025-03-30T10:43:39.838+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                179  0.01s             1           0  0.33s           2025-03-30T10:43:09                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.28s           2025-03-30T10:43:09                      12
+/opt/airflow/dags/dbt_dat_test.py                        178  0.02s             0           1  0.07s           2025-03-30T10:43:09                       5
+================================================================================
+[2025-03-30T10:44:10.227+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.16s           2025-03-30T10:43:40                      12
+/opt/airflow/dags/snowflake_processing.py                188  0.01s             1           0  0.07s           2025-03-30T10:43:39                      10
+/opt/airflow/dags/dbt_dat_test.py                        187  0.03s             0           1  0.05s           2025-03-30T10:43:39                       5
+================================================================================
+[2025-03-30T10:44:40.581+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.25s           2025-03-30T10:44:10                      12
+/opt/airflow/dags/snowflake_processing.py                197  0.01s             1           0  0.08s           2025-03-30T10:44:10                      10
+/opt/airflow/dags/dbt_dat_test.py                        196  0.02s             0           1  0.07s           2025-03-30T10:44:10                       5
+================================================================================
+[2025-03-30T10:45:11.284+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                206  0.02s             1           0  0.39s           2025-03-30T10:44:40                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    207  0.01s             1           0  0.31s           2025-03-30T10:44:40                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.05s           2025-03-30T10:45:03                       5
+================================================================================
+[2025-03-30T10:45:41.828+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                215  0.01s             1           0  0.27s           2025-03-30T10:45:11                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    216  0.01s             1           0  0.26s           2025-03-30T10:45:11                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.05s           2025-03-30T10:45:33                       5
+================================================================================
+[2025-03-30T10:46:12.438+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    225  0.00s             1           0  0.23s           2025-03-30T10:45:42                      12
+/opt/airflow/dags/snowflake_processing.py                224  0.01s             1           0  0.23s           2025-03-30T10:45:42                      10
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.06s           2025-03-30T10:45:58                       5
+================================================================================
+[2025-03-30T10:46:42.836+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                                       1           0  0.46s           2025-03-30T10:46:12                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    233  0.01s             1           0  0.10s           2025-03-30T10:46:12                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.08s           2025-03-30T10:46:28                       5
+================================================================================
+[2025-03-30T10:47:02.353+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T10:47:02.378+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2025-03-30T10:47:13.500+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_weather_from_meteomatics.py    243  0.01s             1           0  0.31s           2025-03-30T10:46:43                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.05s           2025-03-30T10:46:51                       5
+/opt/airflow/dags/snowflake_processing.py                242  0.02s             1           0  0.04s           2025-03-30T10:46:43                      10
+================================================================================
+[2025-03-30T10:47:44.092+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                251  0.02s             1           0  0.25s           2025-03-30T10:47:13                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    252  0.01s             1           0  0.25s           2025-03-30T10:47:13                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.07s           2025-03-30T10:47:21                       5
+================================================================================
+[2025-03-30T10:48:14.622+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                260  0.02s             1           0  0.29s           2025-03-30T10:47:44                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    261  0.01s             1           0  0.28s           2025-03-30T10:47:44                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.04s           2025-03-30T10:47:46                       5
+================================================================================
+[2025-03-30T10:48:45.259+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                269  0.03s             1           0  0.34s           2025-03-30T10:48:14                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py    270  0.01s             1           0  0.33s           2025-03-30T10:48:14                      12
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  0.05s           2025-03-30T10:48:17                       5
+================================================================================
+[2025-03-30T10:53:53.774+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-03-30T10:53:53.784+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-30T10:53:53.784+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-30T10:53:53.784+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-30T10:53:53.794+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2025-03-30T10:53:55.496+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dbt_dat_test.py                                               0           1  1.63s           2025-03-30T10:53:55                       5
+/opt/airflow/dags/snowflake_processing.py                 56  0.06s             0           0                                                            0
+/opt/airflow/dags/extract_weather_from_meteomatics.py     57  0.00s             0           0                                                            0
+================================================================================
+[2025-03-30T10:54:26.055+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dbt_dat_test.py                         70  0.01s             0           1  1.63s           2025-03-30T10:53:55                       5
+/opt/airflow/dags/snowflake_processing.py                 71  0.00s             1           0  0.23s           2025-03-30T10:53:55                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.18s           2025-03-30T10:53:55                      12
+================================================================================
+[2025-03-30T10:54:56.444+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                 80  0.01s             1           0  0.09s           2025-03-30T10:54:26                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.08s           2025-03-30T10:54:26                      12
+/opt/airflow/dags/dbt_dat_test.py                         79  0.02s             0           1  0.06s           2025-03-30T10:54:26                       5
+================================================================================
+[2025-03-30T10:55:26.821+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                 89  0.01s             1           0  0.09s           2025-03-30T10:54:56                      10
+/opt/airflow/dags/dbt_dat_test.py                         88  0.02s             0           1  0.07s           2025-03-30T10:54:56                       5
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.06s           2025-03-30T10:54:56                      12
+================================================================================
+[2025-03-30T10:55:57.194+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                 98  0.01s             1           0  0.07s           2025-03-30T10:55:26                      10
+/opt/airflow/dags/dbt_dat_test.py                         97  0.02s             0           1  0.06s           2025-03-30T10:55:26                       5
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.06s           2025-03-30T10:55:26                      12
+================================================================================
+[2025-03-30T10:56:27.555+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                107  0.01s             1           0  0.07s           2025-03-30T10:55:57                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.06s           2025-03-30T10:55:57                      12
+/opt/airflow/dags/dbt_dat_test.py                        106  0.02s             0           1  0.06s           2025-03-30T10:55:57                       5
+================================================================================
+[2025-03-30T10:56:58.058+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/snowflake_processing.py                116  0.01s             1           0  0.08s           2025-03-30T10:56:27                      10
+/opt/airflow/dags/extract_weather_from_meteomatics.py                           1           0  0.07s           2025-03-30T10:56:27                      12
+/opt/airflow/dags/dbt_dat_test.py                        115  0.03s             0           1  0.06s           2025-03-30T10:56:27                       5
+================================================================================
