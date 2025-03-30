@@ -17,9 +17,10 @@ def validate(raw: dict) -> dict:
 
 @task
 def save(raw: dict) -> str:
+    s3_bucket = "meteomatics-data-raw"
     return WeatherDataFetcher(
         raw["city_name"], raw["run_time"]
-    ).save_to_json(raw)
+    ).save_to_s3_stage(raw, s3_bucket)
 
 @task_group(group_id="extract_weather")
 def extract_weather_group():
