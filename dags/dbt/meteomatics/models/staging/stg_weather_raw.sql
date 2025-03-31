@@ -2,7 +2,7 @@
 
 {{ config(
     materialized='incremental',
-    unique_key='file_path || parameter || reading_datetime',
+    unique_key=['file_path', 'parameter', 'reading_datetime'],
     cluster_by=['reading_datetime::DATE']
 ) }}
 

@@ -1,6 +1,7 @@
 from airflow.decorators import task, dag, task_group
 from airflow.operators.empty import EmptyOperator
 from airflow.utils.dates import days_ago
+from airflow.datasets import Dataset
 from tasks.meteomatics_pipeline.meteomatics_get_data import WeatherDataFetcher
 
 locations_list = ["Tallinn, Estonia", "Amsterdam, Netherlands", "Berlin, Germany"]
@@ -15,7 +16,9 @@ def validate(raw: dict) -> dict:
         raw["location_name"], raw["run_time"]
     ).validate(raw)
 
-@task
+s3_dataset = Dataset("s3://meteomatics-data-raw/weather/ingest")
+
+@task()
 def save(raw: dict) -> str:
     s3_bucket = "meteomatics-data-raw"
     return WeatherDataFetcher(
@@ -35,7 +38,7 @@ def extract_weather_group():
 
 @dag(
     dag_id="extract_weather_from_meteomatics",
-    schedule_interval="@daily",
+    schedule_interval="0 2 * * *",
     start_date=days_ago(1),
     catchup=True,
     max_active_runs=1,
@@ -43,7 +46,7 @@ def extract_weather_group():
 )
 def weather_dag():
     start = EmptyOperator(task_id="start")
-    end = EmptyOperator(task_id="end")
+    end = EmptyOperator(task_id="end",  outlets=[s3_dataset])
     group = extract_weather_group()
     start >> group >> end
 

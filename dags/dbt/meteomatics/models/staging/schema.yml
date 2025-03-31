@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: s3_stage
+    description: "S3 Extrnal Stage as as Source"
+    database: meteomatics_db
+    schema: dbt_schema
+    tables:
+      - name: my_s3_stage
+
+models:
+  - name: stg_weather_raw
+    description: "Staging model extracting key weather fields from JSON structure"
+    columns:
+      - name: file_path
+      - name: file_modified
+      - name: country
+      - name: city
+      - name: dateGenerated
+      - name: parameter
+      - name: latitude
+      - name: longitude
+      - name: reading_datetime
+      - name: reading_value

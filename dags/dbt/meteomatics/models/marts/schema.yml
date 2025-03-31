@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: dim_location
+    description: "Dimension table for weather location"
+
+  - name: dim_location
+    columns:
+      - name: location_key
+        description: The surrogate key of the addressid
+        tests:
+          - not_null
+          - unique
+      
+    
+
+      - name: country
+        description: The conutry name
+
+      - name: city
+        description: The city name
+
+      - name: latitude
+        description: latitude from API
+      
+      - name: longitude
+        description: longitude from API
+
+        
+    
+  - name: dim_date
+    description: "Date dimension"
+   
+
+  - name: dim_weather_condition
+    
+
+  - name: fact_weather_measurements
+    
