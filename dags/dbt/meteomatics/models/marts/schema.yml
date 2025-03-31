@@ -1,8 +1,6 @@
 version: 2
 
 models:
-  - name: dim_location
-    description: "Dimension table for weather location"
 
   - name: dim_location
     columns:
@@ -35,5 +33,9 @@ models:
   - name: dim_weather_condition
     
 
-  - name: fact_weather_measurements
+  - name: fact_sun_times_forecast
+  - name: fact_sun_times_history
+  - name: fact_weather_params_forecast
+  - name: fact_weather_params_history
+
     
